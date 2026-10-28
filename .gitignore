@@ -1,0 +1,6 @@
+node_modules/
+timeline-src/dist/
+tmp/
+tools/*-source.json
+tools/supabase-changelog.md
+*.tsbuildinfo
