@@ -3,6 +3,7 @@
 Tara’s learning menu, duplicated from `ariamenu`, with independent Supabase data.
 
 - Timeline: October 26, 2026 through January 5, 2027, with weekly Monday columns and the January 5 endpoint. Uses the existing teacher editor account.
+- Timeline rows: Page 1–Page 13, followed by Torah Blessing · Before, Torah Blessing · After, Haftarah Blessing · Before, and Haftarah Blessing · After.
 - Torah: Exodus 8:1–15, divided into aliyot 1–3, 4–5, 6–8, 9–11, 12–13, and 14–15. Includes cached Hebrew, trope and script controls.
 - Service: all 13 PDF pages in order, beginning with “As I wrap myself in the talit…”. Each Page button corresponds to the PDF page with that number.
 - English: Vaera, Exodus 6:2–9:35. Exodus 8:1–15 is transcribed from the supplied photos and highlighted yellow. Remaining text uses the matching JPS edition, checked against the photos; Sefaria fills cropped text. Footnotes are omitted.

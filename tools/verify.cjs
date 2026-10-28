@@ -45,7 +45,11 @@ const fs = require('node:fs');
   assert.equal(await timeline.locator('.date-heading').count(),12);
   assert.equal(await timeline.locator('.date-heading').first().textContent(),'10/26');
   assert.equal(await timeline.locator('.date-heading').last().textContent(),'1/5');
-  assert.equal(await timeline.locator('tbody tr').count(),45);
+  assert.deepEqual(await timeline.locator('tbody tr th').allTextContents(), [
+    ...Array.from({length:13},(_,i)=>`Page ${i+1}`),
+    'Torah Blessing · Before', 'Torah Blessing · After',
+    'Haftarah Blessing · Before', 'Haftarah Blessing · After'
+  ]);
   assert(await timeline.locator('.cell').first().isDisabled());
   await page.screenshot({path:'tmp/timeline.png',fullPage:true});
 
