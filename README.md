@@ -7,7 +7,8 @@ Tara’s learning menu, duplicated from `ariamenu`, with independent Supabase da
 - Service: all 13 PDF pages in order, beginning with “As I wrap myself in the talit…”. Each Page button corresponds to the PDF page with that number.
 - English: Vaera, Exodus 6:2–9:35. Exodus 8:1–15 is transcribed from the supplied photos and highlighted yellow. Remaining text uses the matching JPS edition, checked against the photos; Sefaria fills cropped text. Footnotes are omitted.
 - Homework and service recordings retain the original menu’s behavior and use Tara’s separate tables.
-- Elohai, Haftorah, and Zoom retain the original menu’s links.
+- Haftorah: Ezekiel 28:25–26 and 29:1, with trope and script controls.
+- Elohai retains the original menu’s link. The Zoom link is removed.
 
 ## Run
 
