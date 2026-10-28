@@ -48,7 +48,9 @@ const fs = require('node:fs');
   assert.deepEqual(await timeline.locator('tbody tr th').allTextContents(), [
     ...Array.from({length:13},(_,i)=>`Page ${i+1}`),
     'Torah Blessing · Before', 'Torah Blessing · After',
-    'Haftarah Blessing · Before', 'Haftarah Blessing · After'
+    'Haftarah Blessing · Before', 'Haftarah Blessing · After',
+    ...Array.from({length:6},(_,i)=>`Aliyah ${i+1}`),
+    ...Array.from({length:3},(_,i)=>`Haftarah ${i+1}`)
   ]);
   assert(await timeline.locator('.cell').first().isDisabled());
   await page.screenshot({path:'tmp/timeline.png',fullPage:true});
